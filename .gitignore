@@ -1,0 +1,16 @@
+# AWS EC2 private key pairs
+*.pem
+*.ppk
+*.key
+
+# SSH private keys
+id_rsa
+id_ed25519
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+.DS_Store
