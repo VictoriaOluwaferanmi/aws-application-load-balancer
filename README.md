@@ -82,14 +82,6 @@ During configuration, connectivity issues occurred between the load balancer and
 
 The issue was traced to security group configuration. Reviewing and correcting the rules helped establish the required communication between the load balancer and the web servers.
 
-## Future Enhancements
-
-- Enable HTTPS using AWS Certificate Manager.
-- Place web servers in private subnets.
-- Configure EC2 Auto Scaling.
-- Add Amazon CloudWatch monitoring and alarms.
-- Automate infrastructure provisioning with Terraform.
-
 ## Author
 
 **Victoria Oluwaferanmi**
